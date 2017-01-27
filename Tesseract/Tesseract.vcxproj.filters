@@ -9,16 +9,73 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp</Extensions>
     </Filter>
+    <Filter Include="Header Files\GTA">
+      <UniqueIdentifier>{1a7ed104-18f1-4d01-989a-97f10c0f04f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\PS3">
+      <UniqueIdentifier>{e7f304ac-d62c-49e0-b656-a32646d7b0c5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
+    <ClInclude Include="natives.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nativecaller.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="exports.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="implementations.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rp.h">
+      <Filter>Header Files\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="colors.h">
+      <Filter>Header Files\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="vehicles.h">
+      <Filter>Header Files\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="props.h">
+      <Filter>Header Files\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog.h">
+      <Filter>Header Files\PS3</Filter>
+    </ClInclude>
+    <ClInclude Include="models.h">
+      <Filter>Header Files\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="timecycles.h">
+      <Filter>Header Files\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="animations.h">
+      <Filter>Header Files\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="teleports.h">
+      <Filter>Header Files\GTA</Filter>
+    </ClInclude>
+    <ClInclude Include="ps3.h">
+      <Filter>Header Files\PS3</Filter>
+    </ClInclude>
+    <ClInclude Include="structures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="prx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
